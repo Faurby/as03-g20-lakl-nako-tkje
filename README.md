@@ -2,7 +2,7 @@
 
 ## C&#35;
 
-Fork this repository and implement the code required for the assignments below.
+Clone this repository and bring the code pieces you need into your BDSA Assignments GitHub repository.
 
 ### Extension Methods
 
