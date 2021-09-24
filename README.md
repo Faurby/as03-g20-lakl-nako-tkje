@@ -91,3 +91,64 @@ Use the supplied `Queries.cs` and corresponding tests class to implement and tes
 1. List of wizard names grouped by creator in reverse order by creator name and then wizard name.
 
 Each method *must* be implemented twice - once using only *extension methods* and once using as much *LINQ* as possible.
+
+
+
+
+
+
+
+
+
+## Software Engineering
+
+### Exercise 1
+
+What is the difference between a scenario and a use case? When do you use each construct?
+
+
+
+### Exercise 2
+Draw the visual part of a use case diagram for a ticket distributor for a train system. The system includes two actors: a traveler, who purchases different types of tickets, and a central computer system, which maintains a reference database for the tariff. Use cases should include: __BuyOneWayTicket__, __BuyWeeklyCard__, __BuyMonthlyCard__, __UpdateTariff__. Also include the following exceptional cases: __Time-Out__ (i.e., traveler took too long to insert the right amount), __TransactionAborted__ (i.e., traveler selected the cancel button without completing the transaction), __DistributorOutOfChange__, and __DistributorOutOfPaper__.
+Write the complete textual part of the __BuyOneWayTicket__ use case; this will require to consider also the exceptional cases.
+
+
+### Exercise 3
+Draw a sequence diagram for the warehouseOnFire scenario of Figure 2-21. Include the objects __bob__, __alice__, __john__, __FRIEND__, and instances of other classes you may need. Draw only the first five message sends.
+
+
+
+### Exercise 4
+
+Research what a Kanban board is.  Possibly starting from [here](https://www.atlassian.com/agile/kanban/boards), acquire sufficient application domain knowledge to write two as-is scenarios that represent the main usage of a physical Kanban board within a software engineering team.  Note: make sure to cite your references in the submission document.  
+
+### Exercise 5
+
+As a design activity (i.e., before writing the code): draw a class diagram representing your design of the entities for the C# part.  The purpose of the diagram should be to `sketch` the main relationships between the entities and their multiplicity.  To challenge yourselves, consider that often teams use the boards to also highlight task allocation (i.e., who is responsible for/will complete/has taken a card) and that nowadays pair programming or other group practices are used to implement code.  How would you model this feature?
+
+
+### Exercise 6
+
+1. The acronym FURPS+ stands for: F_____________; U_____________; R_____________; P_____________; S_____________; +_____________.
+1. The requirements engineering process is an iterative process that includes requirements ______________, ______________, and ______________.
+1. Software engineering is a collection of ______________, ______________, and ______________ that help with the production of a ______________ software system developed ______________ before a ______________ while change occurs.
+1. Requirements need to be complete, ______________, ______________, and ______________.
+1. Important properties of requirements are realism, ______________, and ______________.
+1. The output of the ______________ activity is the ______________, which include both the non-functional requirements and the functional model.
+
+
+### Exercise 7
+
+1. What level of details should UML models have?
+2. What is the difference between structure diagrams and behavior diagrams in UML?  Provide two examples per category.
+
+
+
+## Submitting the assignment
+
+To submit the assignment you need to create a .pdf document using LaTeX containing the answers to the questions and a link to a public repository containing your fork of the completed code.
+
+Members of the triplets should submit the same PDF file to pass the assignments.  Make sure all group names and ID are clearly marked on the front page. 
+
+
+
