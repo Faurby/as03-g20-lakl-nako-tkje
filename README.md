@@ -28,7 +28,7 @@ Solve the following questions with extension methods (one-liners):
 2. Select numbers in `ys` which are divisible by `7` and greater than `42`.
 3. Select numbers in `ys` which are *leap years*.
 
-Write the answers in the ANSWERS.md file.
+Write the answers in the .pdf file with all non-code solutions.
 
 Implement and test the following extension methods:
 
@@ -45,7 +45,7 @@ Implement the following anonymous functions using the built-in delegates and lam
 1. A method which takes two decimals and returns the product
 1. A method which takes a whole number and a string and returns `true` if they are numerically equal. Note that the string `"  0042"` should return true if the number is `42`
 
-Write the answers in the ANSWERS.md file.
+Write the answers in the .pdf file with all non-code solutions.
 
 You probably want to implement a set of tests to validate the methods.
 
