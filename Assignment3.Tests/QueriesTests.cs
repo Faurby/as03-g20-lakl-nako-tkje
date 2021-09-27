@@ -62,7 +62,11 @@ namespace BDSA2020.Assignment03.Tests
 
             var actual = Queries.getHarryPotterWizardsLINQ();
 
-            Assert.Equal(expected, actual);
+            foreach (var w in actual)
+            {
+                Assert.Contains(w, expected);
+            }
+            Assert.Equal(expected.Count(), actual.Count());
         }
 
         [Fact]
@@ -80,7 +84,12 @@ namespace BDSA2020.Assignment03.Tests
 
             var actual = Queries.getHarryPotterWizardsExtension();
 
-            Assert.Equal(expected, actual);
+            foreach (var w in actual)
+            {
+                Assert.Contains(w, expected);
+            }
+            
+            Assert.Equal(expected.Count(), actual.Count());
         }
 
         [Fact]
